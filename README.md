@@ -40,8 +40,8 @@ Marketing teams can have plenty of advertising data without a clear view of **wh
 Dedicated Facebook and Instagram views, built from the same underlying Power BI model, filtered independently.
 
 <p align="center">
-  <img src="Screenshots/Facebook_Dashboard.png" width="49%" alt="Facebook Dashboard">
-  <img src="Screenshots/Instagram_Dashboard.png" width="49%" alt="Instagram Dashboard">
+  <img src="Screenshots/Facebook_dashboard.png" width="49%" alt="Facebook Dashboard">
+  <img src="Screenshots/Instagram_dashboard.png" width="49%" alt="Instagram Dashboard">
 </p>
 
 A dynamic metric selector switches every visual between **Impressions, Clicks, Engagements, and Purchases** — one page, four perspectives.
@@ -95,7 +95,7 @@ The full analysis is consolidated into one report:
 - **Part Three** — Findings & Insights
 - **Part Four** — Recommendations
 
-**[📄 Read the full Project Report](Documents/Meta_Ad_Analysis_Project_Report.pdf)**
+**[📄 Read the full Project Report](Document/Meta_Ad_Analysis_Project_Report.pdf)**
 
 Includes detailed methodology, the data model, KPI definitions, platform-vs-platform findings, assumptions, limitations, and recommendations.
 
