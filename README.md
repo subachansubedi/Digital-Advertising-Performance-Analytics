@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="Screenshots/meta.png" width="100%" alt="Meta Ads Performance Dashboard">
-</p>
+<p align="center"> <img src="Screenshots/meta.png" width="100%" height="400" alt="Meta Ads Performance Dashboard"> </p>
 
 <h1 align="center">Meta Ad Performance Dashboard</h1>
 <p align="center">
