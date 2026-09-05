@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshots/meta banner.png" width="100%" alt="Meta Ads Performance Dashboard">
+  <img src="Screenshots/meta.png" width="100%" alt="Meta Ads Performance Dashboard">
 </p>
 
 <h1 align="center">Meta Ad Performance Dashboard</h1>
@@ -42,8 +42,8 @@ Marketing teams can have plenty of advertising data without a clear view of **wh
 Dedicated Facebook and Instagram views, built from the same underlying Power BI model, filtered independently.
 
 <p align="center">
-  <img src="Screenshots/Facebook Dashboard.png" width="49%" alt="Facebook Dashboard">
-  <img src="Screenshots/Instagram Dashboard.png" width="49%" alt="Instagram Dashboard">
+  <img src="Screenshots/Facebook_Dashboard.png" width="49%" alt="Facebook Dashboard">
+  <img src="Screenshots/Instagram_Dashboard.png" width="49%" alt="Instagram Dashboard">
 </p>
 
 A dynamic metric selector switches every visual between **Impressions, Clicks, Engagements, and Purchases** — one page, four perspectives.
@@ -97,7 +97,7 @@ The full analysis is consolidated into one report:
 - **Part Three** — Findings & Insights
 - **Part Four** — Recommendations
 
-**[📄 Read the full Project Report](documents/Meta%20Ad%20Performance%20-%20Project%20Report.pdf)**
+**[📄 Read the full Project Report](Documents/Meta_Ad_Analysis_Project_Report.pdf)**
 
 Includes detailed methodology, the data model, KPI definitions, platform-vs-platform findings, assumptions, limitations, and recommendations.
 
@@ -109,9 +109,9 @@ Includes detailed methodology, the data model, KPI definitions, platform-vs-plat
 Meta-Ad-Performance-Dashboard/
 │
 ├── Dashboard pdf/
-│   └── Meta Ad Performance Dashboard.pdf
+│   └── dashboard.pdf
 │
-├── Meta Ad Performance Dashboard.pbix
+├── Meta_Ad_Performance_Dashboard.pbix
 │
 ├── raw Data files/
 │   ├── ad_events.csv
@@ -120,12 +120,12 @@ Meta-Ad-Performance-Dashboard/
 │   └── users.csv
 │
 ├── documents/
-│   └── Meta Ad Performance - Project Report.pdf
+│   └── Meta_Ad_Analysis_Project_Report.pdf
 │
 ├── Screenshots/
-│   ├── meta banner.png
-│   ├── Facebook Dashboard.png
-│   └── Instagram Dashboard.png
+│   ├── meta.png
+│   ├── Facebook_Dashboard.png
+│   └── Instagram_Dashboard.png
 │
 └── README.md
 ```
@@ -134,9 +134,9 @@ Meta-Ad-Performance-Dashboard/
 
 ## Explore the Project
 
-**View the dashboard** — [Dashboard PDF](Dashboard%20pdf/Meta%20Ad%20Performance%20Dashboard.pdf) (static, no software needed)
+**View the dashboard** — [Dashboard PDF](Dashboard%20pdf/dashboard.pdf) 
 
-**Open the interactive report** — [Meta Ad Performance Dashboard.pbix](Meta%20Ad%20Performance%20Dashboard.pbix) (requires Power BI Desktop, free)
+**Open the interactive report** — [Meta Ad Performance Dashboard.pbix](Meta_Ad_Performance_Dashboard.pbix)
 
 ---
 
