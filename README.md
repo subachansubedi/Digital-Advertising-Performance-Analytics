@@ -132,7 +132,7 @@ Meta-Ad-Performance-Dashboard/
 
 ## Explore the Project
 
-**View the dashboard** — [Dashboard PDF](Dashboard%20pdf/dashboard.pdf) 
+**View the dashboard** — [Dashboard PDF](Dashboard/dashboard.pdf) 
 
 **Open the interactive report** — [Meta Ad Performance Dashboard.pbix](Meta_Ad_Performance_Dashboard.pbix)
 
