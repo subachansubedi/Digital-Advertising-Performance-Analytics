@@ -1,20 +1,22 @@
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/meta/0866FF" width="180" alt="Meta">
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Screenshots/meta_digital_advertising_banner.png?raw=1" alt="Digital Advertising Performance Analytics banner" width="100%">
 
-# Digital Advertising Performance Analytics
+# 📣 Digital Advertising Performance Analytics
 
-### Campaign performance, profitability, and budget intelligence
+### Meta paid-social performance analysis across Facebook & Instagram
 
-**Python · MySQL · Power BI · Marketing Analytics**
+**📊 Power BI · 🐍 Python · 📁 Multi-table Campaign Data · 🎯 Business Intelligence**
 
 <br>
 
-<a href="#python-lab"><b>🐍 Python Analysis</b></a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="#sql-layer"><b>🗄️ SQL Analysis</b></a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="#decision-room"><b>📊 Power BI Dashboard</b></a>
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Dashboard/dashboard.pdf"><b>📊 Dashboard PDF</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf"><b>📄 Business Report</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/digital_ad_python_analysis.py"><b>🐍 Python Analysis</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Meta_Ad_Performance_Dashboard.pbix"><b>📘 Power BI File</b></a>
 
 <br><br>
 
@@ -24,81 +26,62 @@
 
 ---
 
-<p align="center">
-  <img src="images/executive_overview.png" alt="Digital Advertising Executive Overview Dashboard" width="100%">
-</p>
+# 👀 Recruiter Quick Scan
+
+> **Start here:** the two dashboard views below show the finished BI work first.  
+> For the complete methodology, business interpretation, detailed findings, limitations, and recommendations, open the **[full Business Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf)**.
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
-### 🐍 5
-**Python Notebooks**
+### 📘 Facebook Dashboard
 
-Structured analysis from data understanding to executive recommendations.
-
-</td>
-<td align="center" width="25%">
-
-### 🗄️ 20
-**SQL Questions**
-
-Reusable business analysis across campaign performance and profitability.
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Screenshots/Facebook_dashboard.png?raw=1" alt="Facebook Ad Performance Dashboard" width="100%">
 
 </td>
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
-### 📊 4
-**Power BI Pages**
+### 📸 Instagram Dashboard
 
-Executive reporting for performance, markets, and recommendations.
-
-</td>
-<td align="center" width="25%">
-
-### 🎯 10+
-**Marketing KPIs**
-
-ROAS, profit, CPA, CTR, conversion rate, CPM, and more.
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Screenshots/Instagram_dashboard.png?raw=1" alt="Instagram Ad Performance Dashboard" width="100%">
 
 </td>
 </tr>
 </table>
 
-> ### 💡 Project in one sentence
-> **A complete digital advertising analytics workflow that turns raw campaign data into performance insights, profitability metrics, and budget decisions using Python, SQL, and Power BI.**
-
----
-
-## 🧭 Explore the Project
-
 <table>
 <tr>
-<td width="33%" valign="top">
+<td align="center" width="25%">
 
-### 🐍 Python Lab
+### 📊 Power BI
+**Dashboard layer**
 
-**Understand → Validate → Explore → Engineer → Recommend**
-
-[`Open Python workflow`](#python-lab)
-
-</td>
-<td width="33%" valign="top">
-
-### 🗄️ SQL Layer
-
-**20 repeatable business questions**
-
-[`Open SQL analysis`](#sql-layer)
+Facebook and Instagram performance presented for fast business review.
 
 </td>
-<td width="33%" valign="top">
+<td align="center" width="25%">
 
-### 📊 Decision Room
+### 🐍 Python
+**15-question analysis**
 
-**4-page executive Power BI experience**
+Programmatic analysis with exported charts and tabular results.
 
-[`Open dashboard section`](#decision-room)
+</td>
+<td align="center" width="25%">
+
+### 📁 4 CSVs
+**Raw data**
+
+Users, campaigns, ads, and ad-event data.
+
+</td>
+<td align="center" width="25%">
+
+### 📄 2 Reports
+**Business + Python**
+
+A business-facing report and a dedicated Python analysis report.
 
 </td>
 </tr>
@@ -106,668 +89,392 @@ ROAS, profit, CPA, CTR, conversion rate, CPM, and more.
 
 ---
 
-## What This Project Actually Does
+# 🎯 Project Objective
 
-This repository is not only a dashboard.
+The project asks a practical paid-social question:
 
-It builds a complete analytical chain around digital advertising performance:
+> ## How effectively are Facebook and Instagram campaigns moving users through the advertising journey, and where should performance be investigated across platform, funnel stage, creative format, audience, timing, geography, and campaign budget?
 
-```text
-RAW CAMPAIGN DATA
-       │
-       ├───────────────┬────────────────┐
-       ▼               ▼                ▼
-   PYTHON LAB       MYSQL LAYER     POWER BI LAYER
-       │               │                │
- Understand data    Ask repeatable    Monitor campaign
- Check quality      business          performance
- Explore patterns   questions         visually
- Engineer KPIs      Rank outcomes     support decisions
-       │               │                │
-       └───────────────┴────────────────┘
-                       ▼
-               BUSINESS INSIGHT
-                       ▼
-               BUDGET DECISIONS
-```
+The analysis is structured around these areas:
 
-The project is designed around one central problem:
-
-> **How can advertising data be translated into better decisions about platform mix, campaign strategy, market focus, and budget allocation?**
-
----
-
-## Performance Lens
-
-The analysis is organized around three levels of marketing performance:
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 👁️ Attention
-
-- **Impressions** — campaign exposure
-- **Clicks** — generated traffic
-- **CTR** — impression-to-click efficiency
-- **CPM** — cost of reach at scale
-
-</td>
-<td width="33%" valign="top">
-
-### ✅ Conversion
-
-- **Conversions** — completed desired actions
-- **Conversion Rate** — click-to-conversion efficiency
-- **CPC** — cost per click
-- **CPA** — cost per conversion
-
-</td>
-<td width="33%" valign="top">
-
-### 💰 Business Value
-
-- **Revenue** — commercial output
-- **Profit** — revenue less ad spend
-- **ROAS** — revenue per ad dollar
-- **Profit Margin** — profitability efficiency
-
-</td>
-</tr>
-</table>
-
-> The project deliberately moves beyond vanity metrics: **attention matters, but business value determines whether a campaign is economically effective.**
-
----
-
-## 📌 The Analytical Story
-
-```text
-CAMPAIGN ACTIVITY
-Impressions → Clicks → Conversions
-                         │
-                         ▼
-                  COMMERCIAL VALUE
-               Revenue → Profit → ROAS
-                         │
-                         ▼
-                  MANAGEMENT ACTION
-          Scale · Optimize · Investigate
-```
-
-This structure keeps the project focused on the business question behind the metrics: **which campaign activity is creating value, and where should the next advertising dollar be evaluated?**
-
----
-
-<a id="python-lab"></a>
-
-# 🐍 Python Lab
-
-The Python implementation is organized as a **progressive analytical workflow**, not one large notebook.
-
-<div align="center">
-
-### 01 Understand → 02 Validate → 03 Explore → 04 Engineer → 05 Recommend
-
-</div>
-
----
-
-### `01_data_understanding.ipynb`
-
-**Purpose:** Establish the shape, structure, and analytical meaning of the dataset before analysis begins.
-
-**Core functionality**
-
-- Dataset dimensions
-- Column review
-- Data-type inspection
-- Initial sample exploration
-- Descriptive statistics
-- Variable classification
-- Early observations
-
-📓 [`Open notebook`](notebooks/01_data_understanding.ipynb)
-
----
-
-### `02_data_quality_assessment.ipynb`
-
-**Purpose:** Determine whether the campaign data is reliable enough for downstream analysis.
-
-**Core functionality**
-
-- Missing-value analysis
-- Duplicate detection
-- Data-type validation
-- Range and reasonableness checks
-- Consistency review
-- Overall quality assessment
-
-📓 [`Open notebook`](notebooks/02_data_quality_assessment.ipynb)
-
----
-
-### `03_exploratory_data_analysis.ipynb`
-
-**Purpose:** Find the strongest patterns across advertising performance.
-
-**Analysis areas**
-
-<table>
-<tr>
-<td width="33%">
-
-**Platform**
-- Revenue
-- Profit
-- ROAS
-- Clicks
-- Conversions
-
-</td>
-<td width="33%">
-
-**Market**
-- Country
-- Industry
-- Campaign type
-- Segment performance
-
-</td>
-<td width="33%">
-
-**Behavior**
-- Time trends
-- Engagement
-- Conversion efficiency
-- Spend efficiency
-
-</td>
-</tr>
-</table>
-
-📓 [`Open notebook`](notebooks/03_exploratory_data_analysis.ipynb)
-
----
-
-### `04_feature_engineering.ipynb`
-
-**Purpose:** Convert raw campaign measures into stronger business KPIs.
-
-Key engineered fields include:
-
-```text
-Profit            = Revenue - Ad Spend
-Profit Margin     = Profit / Revenue
-Conversion Rate   = Conversions / Clicks
-CPM               = (Ad Spend / Impressions) × 1,000
-```
-
-Additional derived fields prepare the campaign data for deeper profitability and efficiency analysis.
-
-📓 [`Open notebook`](notebooks/04_feature_engineering.ipynb)
-
----
-
-### `05_executive_summary_and_business_recommendations.ipynb`
-
-**Purpose:** Translate the technical analysis into management language.
-
-The final Python stage focuses on:
-
-- High-performing advertising platforms
-- Strong campaign types
-- High-value markets
-- Industry performance
-- Profitability opportunities
-- Budget-allocation opportunities
-- Strategic optimization recommendations
-
-📓 [`Open notebook`](notebooks/05_executive_summary_and_business_recommendations.ipynb)
-
----
-
-## Python Capability Map
-
-| Capability | Implemented through |
+| Area | What it evaluates |
 |---|---|
-| Data profiling | Pandas / notebook inspection |
-| Data-quality review | Null, duplicate, type, and consistency checks |
-| Exploratory analysis | Aggregation, comparison, and visualization |
-| KPI engineering | Derived financial and conversion metrics |
-| Trend analysis | Time-based campaign performance exploration |
-| Segment analysis | Platform, campaign, industry, and country views |
-| Executive interpretation | Business-focused summary notebook |
-| Reproducibility | Sequential Jupyter notebook workflow |
+| 📘 **Platform** | Facebook vs. Instagram performance |
+| 🔄 **Funnel** | Movement and drop-off across advertising events |
+| 🎨 **Ad Format** | Differences across creative/ad formats |
+| 👥 **Audience** | Response patterns across user segments |
+| ⏰ **Timing** | Performance differences by time |
+| 🌍 **Country** | Geographic performance |
+| 💸 **Campaign Budget** | Budget as a campaign-performance dimension |
+| 📅 **Weekly Activity** | Changes in activity over time |
+
+> This README gives the **portfolio overview**. For full business explanation and detailed conclusions, refer to the **[Meta Ad Analysis Project Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf)**.
 
 ---
 
-<a id="sql-layer"></a>
+# 📊 Power BI Dashboard
 
-# 🗄️ The SQL Layer
+**Power BI file:** [Meta_Ad_Performance_Dashboard.pbix](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Meta_Ad_Performance_Dashboard.pbix)  
+**PDF export:** [Dashboard/dashboard.pdf](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Dashboard/dashboard.pdf)
 
-### 20 questions. One reusable business-analysis layer.
-
-📄 [`sql/marketing_campaign_business_questions.sql`](sql/marketing_campaign_business_questions.sql)
-
-The SQL implementation complements Python by turning business questions into repeatable queries.
-
-Rather than using SQL only to pull data, the project uses it to investigate performance across:
-
-`Revenue` · `Profit` · `Platforms` · `Campaigns` · `Countries` · `Industries` · `Rankings` · `Efficiency`
-
-### What the SQL work demonstrates
-
-- Aggregation
-- `GROUP BY`
-- `ORDER BY`
-- Filtering
-- Ranking
-- KPI calculations
-- Cross-segment comparisons
-- Business-question framing
-
-> **Python discovers patterns. SQL makes business questions repeatable. Power BI makes the results consumable.**
-
----
-
-<a id="decision-room"></a>
-
-# 📊 Decision Room
-
-The Power BI report is presented here as a **decision room** rather than a simple dashboard gallery.
-
-Its four pages answer four different management questions.
-
----
-
-## 01 / Executive Pulse
-
-> **What is happening across the advertising portfolio right now?**
+## 📘 Facebook Performance
 
 <p align="center">
-  <img src="images/executive_overview.png" alt="Executive Overview" width="96%">
+  <img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Screenshots/Facebook_dashboard.png?raw=1" alt="Facebook Ad Performance Dashboard" width="100%">
 </p>
 
-**Primary signals**
+The Facebook view gives a fast visual summary of paid-social performance and provides one side of the cross-platform comparison.
 
-`Revenue` · `Profit` · `ROAS` · `Clicks` · `Conversions` · `Trend`
-
----
-
-## 02 / Channel Contest
-
-> **Which advertising platform is generating stronger commercial performance?**
+## 📸 Instagram Performance
 
 <p align="center">
-  <img src="images/platform_performance.png" alt="Platform Performance" width="96%">
+  <img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Screenshots/Instagram_dashboard.png?raw=1" alt="Instagram Ad Performance Dashboard" width="100%">
 </p>
 
-The page compares platforms across:
+The Instagram view uses the same analytical context so platform differences can be reviewed consistently.
 
-- Revenue
-- Profit
-- ROAS
-- Click volume
-- Conversion volume
-- Efficiency
+### Why this matters
+
+The dashboard is intended to help a reviewer quickly understand:
+
+- platform performance,
+- event/funnel behavior,
+- audience patterns,
+- ad-format differences,
+- campaign activity,
+- and where deeper analysis is required.
+
+For the full interpretation behind the dashboard, use the **[Business Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf)**.
 
 ---
 
-## 03 / Market Map
+# 🐍 Python Analysis
 
-> **Where is performance strongest by campaign type, industry, and geography?**
+**Main script:** [python/digital_ad_python_analysis.py](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/digital_ad_python_analysis.py)  
+**Python report:** [digital_advertising_python_report.pdf](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/Python%20Report%20Pdf/digital_advertising_python_report.pdf)  
+**15-question results:** [15_question_results.csv](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/15_question_results.csv)
 
-<p align="center">
-  <img src="images/market_campaign_analysis.png" alt="Market and Campaign Performance" width="96%">
-</p>
+The Python implementation provides the deeper analytical layer behind the project and exports both visual and tabular outputs.
 
-The analysis shifts from channel-level performance to:
-
-- Campaign type
-- Industry
-- Country
-- Profitability
-- ROAS
-- Market opportunity
-
----
-
-## 04 / Action Board
-
-> **What should decision-makers investigate or prioritize next?**
-
-<p align="center">
-  <img src="images/executive_recommendations.png" alt="Executive Recommendations" width="96%">
-</p>
-
-The recommendation layer brings together:
-
-- Budget allocation
-- Platform prioritization
-- Campaign strategy
-- Market opportunity
-- ROAS optimization
-- Profitability improvement
-
----
-
-## Dashboard Contact Sheet
+## 🔬 Analytical Outputs
 
 <table>
 <tr>
-<td width="50%"><img src="images/executive_overview.png" width="100%" alt="Executive Overview"></td>
-<td width="50%"><img src="images/platform_performance.png" width="100%" alt="Platform Performance"></td>
+<td width="50%" valign="top">
+
+### 01 — Event Mix
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q01_event_mix.png?raw=1" alt="Event Mix Analysis" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+### 02 — Funnel
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q02_funnel.png?raw=1" alt="Advertising Funnel Analysis" width="100%">
+
+</td>
 </tr>
+
 <tr>
-<td align="center"><b>01 — Executive Pulse</b></td>
-<td align="center"><b>02 — Channel Contest</b></td>
+<td width="50%" valign="top">
+
+### 03–05 — Platform Comparison
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q03_q05_platform_comparison.png?raw=1" alt="Facebook and Instagram Platform Comparison" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+### 06–08 — Ad Formats
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q06_q08_ad_formats.png?raw=1" alt="Ad Format Analysis" width="100%">
+
+</td>
 </tr>
+
 <tr>
-<td width="50%"><img src="images/market_campaign_analysis.png" width="100%" alt="Market Analysis"></td>
-<td width="50%"><img src="images/executive_recommendations.png" width="100%" alt="Recommendations"></td>
+<td width="50%" valign="top">
+
+### 09–10 — Audience
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q09_q10_audience.png?raw=1" alt="Audience Analysis" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+### 11–12 — Timing
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q11_q12_timing.png?raw=1" alt="Timing Analysis" width="100%">
+
+</td>
 </tr>
+
 <tr>
-<td align="center"><b>03 — Market Map</b></td>
-<td align="center"><b>04 — Action Board</b></td>
+<td width="50%" valign="top">
+
+### 13 — Country Performance
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q13_country_performance.png?raw=1" alt="Country Performance Analysis" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+### 14 — Campaign Budget
+
+<img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q14_campaign_budget.png?raw=1" alt="Campaign Budget Analysis" width="100%">
+
+</td>
 </tr>
 </table>
 
----
+### 15 — Weekly Activity
 
-# 🧠 From Metric to Decision
+<p align="center">
+  <img src="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/q15_weekly_activity.png?raw=1" alt="Weekly Advertising Activity" width="92%">
+</p>
 
-A useful way to read the project is as a sequence of management signals.
-
-### High ROAS + High Profit
-**Interpretation:** strong commercial efficiency  
-**Decision use:** candidate for controlled budget expansion
-
-### High Revenue + Weak Margin
-**Interpretation:** volume is not translating into equally strong profitability  
-**Decision use:** investigate spend, CPA, and campaign cost structure
-
-### High CTR + Weak Conversion Rate
-**Interpretation:** ads are generating interest but downstream performance is weaker  
-**Decision use:** review audience quality, offer, landing experience, or campaign objective
-
-### High Spend + Weak ROAS
-**Interpretation:** budget concentration is not producing proportionate revenue  
-**Decision use:** investigate before scaling further
-
-### Low Spend + Strong Efficiency
-**Interpretation:** potentially underfunded high-performing activity  
-**Decision use:** test incremental budget rather than immediately making a large shift
-
-### Strong Market / Industry Performance
-**Interpretation:** some segments create more value than others  
-**Decision use:** evaluate targeted investment opportunities
+> For the full Python explanation, methodology, and interpretation, open the **[Python Analysis Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/Python%20Report%20Pdf/digital_advertising_python_report.pdf)**.
 
 ---
 
-# 🧪 Analytical Architecture
+# 🗃️ Raw Data
+
+The project uses four source files in **Raw Data File/**:
+
+| File | Role in the analysis |
+|---|---|
+| `users.csv` | User-level information for audience analysis |
+| `campaigns.csv` | Campaign context and budget information |
+| `ads.csv` | Ad-level information for creative/format analysis |
+| `ad_events.csv` | Event-level activity for funnel and behavioral analysis |
+
+📂 [Browse the Raw Data File folder](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/tree/main/Raw%20Data%20File)
+
+A simplified conceptual relationship is:
+
+```text
+Campaigns
+   │
+   └── Ads
+        │
+        └── Ad Events
+             │
+             └── Users
+```
+
+This gives the project analytical coverage across **campaign, ad, event, user, platform, time, and geography**.
+
+---
+
+# ⚙️ Project Architecture
 
 ```mermaid
-flowchart TD
+flowchart LR
+    A["📁 Raw CSV Data"]
 
-    A["Campaign Dataset"]
+    A --> B["🐍 Python Analysis"]
+    A --> C["📊 Power BI"]
 
-    A --> B["Python Lab"]
-    B --> B1["Data Understanding"]
-    B1 --> B2["Quality Assessment"]
-    B2 --> B3["EDA"]
-    B3 --> B4["Feature Engineering"]
-    B4 --> B5["Executive Interpretation"]
+    B --> B1["15 Analytical Questions"]
+    B1 --> B2["Charts + CSV Results"]
+    B2 --> B3["Python Report"]
 
-    A --> C["MySQL"]
-    C --> C1["20 Business Questions"]
+    C --> C1["Facebook Dashboard"]
+    C --> C2["Instagram Dashboard"]
 
-    A --> D["Power BI"]
-    D --> D1["Executive Pulse"]
-    D --> D2["Channel Contest"]
-    D --> D3["Market Map"]
-    D --> D4["Action Board"]
+    B3 --> D["💡 Business Insights"]
+    C1 --> D
+    C2 --> D
 
-    B5 --> E["Business Insight"]
-    C1 --> E
-    D1 --> E
-    D2 --> E
-    D3 --> E
-    D4 --> E
-
-    E --> F["Budget & Campaign Decisions"]
+    D --> E["📄 Business Report"]
+    E --> F["🎯 Marketing Decisions"]
 ```
 
 ---
 
-# 🛠️ Technology Stack
+# 💼 What This Project Demonstrates
 
 <table>
 <tr>
-<td align="center" width="16%"><b>🐍<br>Python</b></td>
-<td align="center" width="16%"><b>🐼<br>Pandas</b></td>
-<td align="center" width="16%"><b>🔢<br>NumPy</b></td>
-<td align="center" width="16%"><b>📓<br>Jupyter</b></td>
-<td align="center" width="16%"><b>🗄️<br>MySQL</b></td>
-<td align="center" width="16%"><b>📊<br>Power BI</b></td>
+<td width="33%" valign="top">
+
+### 📊 BI & Visualization
+- Power BI
+- Dashboard design
+- Facebook vs. Instagram comparison
+- Executive visual storytelling
+
+</td>
+<td width="33%" valign="top">
+
+### 🐍 Python Analytics
+- Programmatic analysis
+- 15 business questions
+- Chart generation
+- Funnel analysis
+- Audience analysis
+- Timing analysis
+- Geographic analysis
+- Budget analysis
+
+</td>
+<td width="33%" valign="top">
+
+### 📄 Business Communication
+- Full business report
+- Dedicated Python report
+- Exported results
+- Recruiter-friendly project documentation
+
+</td>
 </tr>
 </table>
 
-| Layer | Tool | Role |
-|---|---|---|
-| Programming | Python | Main programmatic analysis layer |
-| Data manipulation | Pandas | Cleaning, aggregation, segmentation, KPI analysis |
-| Numerical analysis | NumPy | Numerical operations |
-| Exploration | Jupyter Notebook | Reproducible staged analytics |
-| Visualization | Matplotlib | Exploratory charts |
-| Query analysis | MySQL | 20 repeatable business questions |
-| BI / storytelling | Power BI | Executive monitoring and decision support |
-| Version control | GitHub | Project documentation and delivery |
+---
+
+# 🧭 Recommended Review Order
+
+```text
+1. README
+   ↓
+2. Facebook + Instagram dashboard screenshots
+   ↓
+3. Dashboard PDF
+   ↓
+4. Business Report
+   ↓
+5. Python output charts
+   ↓
+6. Python Report
+   ↓
+7. Python source code
+   ↓
+8. Raw data
+```
+
+### Direct links
+
+- 📊 [Dashboard PDF](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Dashboard/dashboard.pdf)
+- 📘 [Power BI file](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Meta_Ad_Performance_Dashboard.pbix)
+- 📄 [Business Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf)
+- 🐍 [Python script](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/digital_ad_python_analysis.py)
+- 📑 [Python Report](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/Python%20Report%20Pdf/digital_advertising_python_report.pdf)
+- 📈 [15-question results CSV](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/outputs/15_question_results.csv)
+- 📁 [Raw data folder](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/tree/main/Raw%20Data%20File)
+- 🐍 [Python folder](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/tree/main/python)
 
 ---
 
-# 🚀 Run the Project
-
-### 1. Clone
-
-```bash
-git clone https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics.git
-cd Digital-Advertising-Performance-Analytics
-```
-
-### 2. Create an environment
-
-**Windows**
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-**macOS / Linux**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Start Jupyter
-
-```bash
-jupyter notebook
-```
-
-Recommended notebook order:
-
-```text
-01_data_understanding.ipynb
-        ↓
-02_data_quality_assessment.ipynb
-        ↓
-03_exploratory_data_analysis.ipynb
-        ↓
-04_feature_engineering.ipynb
-        ↓
-05_executive_summary_and_business_recommendations.ipynb
-```
-
-### 5. Run SQL
-
-Execute:
-
-```text
-sql/marketing_campaign_business_questions.sql
-```
-
-in MySQL after loading the campaign dataset.
-
-### 6. Open Power BI
-
-Open:
-
-```text
-dashboard/Global_Digital_Advertising_Performance_Analysis.pbix
-```
-
-with Power BI Desktop.
-
----
-
-# 🗂️ Repository Map
+# 📁 Repository Structure
 
 ```text
 Digital-Advertising-Performance-Analytics/
-│
-├── data/
-│   └── global_ads_performance_dataset.csv
-│
-├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_data_quality_assessment.ipynb
-│   ├── 03_exploratory_data_analysis.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   └── 05_executive_summary_and_business_recommendations.ipynb
-│
-├── sql/
-│   └── marketing_campaign_business_questions.sql
-│
-├── dashboard/
-│   └── Global_Digital_Advertising_Performance_Analysis.pbix
-│
-├── images/
-│   ├── executive_overview.png
-│   ├── platform_performance.png
-│   ├── market_campaign_analysis.png
-│   └── executive_recommendations.png
-│
-├── requirements.txt
+├── README.md
 ├── LICENSE
-└── README.md
+├── Meta_Ad_Performance_Dashboard.pbix
+│
+├── Dashboard/
+│   └── dashboard.pdf
+│
+├── Document/
+│   └── Meta_Ad_Analysis_Project_Report.pdf
+│
+├── Raw Data File/
+│   ├── ad_events.csv
+│   ├── ads.csv
+│   ├── campaigns.csv
+│   └── users.csv
+│
+├── Screenshots/
+│   ├── Facebook_dashboard.png
+│   ├── Instagram_dashboard.png
+│   ├── meta.png
+│   └── meta_digital_advertising_banner.png
+│
+└── python/
+    ├── .gitkeep
+    ├── digital_ad_python_analysis.py
+    │
+    ├── Python Report Pdf/
+    │   └── digital_advertising_python_report.pdf
+    │
+    └── outputs/
+        ├── 15_question_results.csv
+        ├── q01_event_mix.png
+        ├── q02_funnel.png
+        ├── q03_q05_platform_comparison.png
+        ├── q06_q08_ad_formats.png
+        ├── q09_q10_audience.png
+        ├── q11_q12_timing.png
+        ├── q13_country_performance.png
+        ├── q14_campaign_budget.png
+        └── q15_weekly_activity.png
 ```
-
-### Where to start
-
-| If you want to... | Open |
-|---|---|
-| Understand the raw data | [`01_data_understanding.ipynb`](notebooks/01_data_understanding.ipynb) |
-| Check data quality | [`02_data_quality_assessment.ipynb`](notebooks/02_data_quality_assessment.ipynb) |
-| Explore campaign patterns | [`03_exploratory_data_analysis.ipynb`](notebooks/03_exploratory_data_analysis.ipynb) |
-| See engineered KPIs | [`04_feature_engineering.ipynb`](notebooks/04_feature_engineering.ipynb) |
-| Read the executive analysis | [`05_executive_summary_and_business_recommendations.ipynb`](notebooks/05_executive_summary_and_business_recommendations.ipynb) |
-| Review SQL analysis | [`marketing_campaign_business_questions.sql`](sql/marketing_campaign_business_questions.sql) |
-| Explore the Power BI model | [`Global_Digital_Advertising_Performance_Analysis.pbix`](dashboard/Global_Digital_Advertising_Performance_Analysis.pbix) |
 
 ---
 
-# 🧰 Skills Demonstrated
+# 📄 Reports
 
-`Python Analytics`  
-`Pandas`  
-`NumPy`  
-`Jupyter Notebook`  
-`Exploratory Data Analysis`  
-`Data Quality Assessment`  
-`Feature Engineering`  
-`Marketing KPI Design`  
-`MySQL`  
-`Business Question Analysis`  
-`Power BI`  
-`Campaign Analytics`  
-`ROAS Analysis`  
-`Profitability Analysis`  
-`Budget Optimization`  
-`Executive Reporting`  
-`Data Storytelling`
+## Business Report
+
+👉 [Meta_Ad_Analysis_Project_Report.pdf](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf)
+
+Use this for the **full project explanation**: business context, methodology, detailed dashboard interpretation, findings, limitations, and recommendations.
+
+## Python Report
+
+👉 [digital_advertising_python_report.pdf](https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/Python%20Report%20Pdf/digital_advertising_python_report.pdf)
+
+Use this for the **full Python analysis**, including deeper analytical questions and supporting outputs.
 
 ---
 
 # ⚠️ Interpretation Notes
 
-> [!IMPORTANT]
-> Performance observed in the dataset should be treated as historical analytical evidence, not as a guarantee of future campaign results.
-
-Important considerations:
-
-- Historical ROAS is not a forecast.
-- Correlation does not establish causal impact.
-- Platform results can vary with creative, bidding strategy, objective, audience, seasonality, and attribution logic.
-- Profitability depends on how revenue and advertising cost are defined in the source data.
-- Budget reallocations should ideally be validated through controlled experimentation.
+- Historical patterns do not guarantee future campaign outcomes.
+- Platform differences should not automatically be treated as causal.
+- Funnel metrics are most useful when interpreted together.
+- Audience, timing, format, platform, and campaign context should be considered jointly.
+- Large budget changes should ideally be validated with controlled testing.
 
 ---
 
-# 🔮 Next-Level Extensions
-
-This project can be extended into a more advanced marketing analytics system through:
+# 🔮 Future Extensions
 
 - Predictive campaign-performance modeling
-- Time-series revenue / ROAS forecasting
-- Automated budget optimization
-- Audience segmentation
+- Funnel conversion forecasting
 - A/B testing analysis
-- Campaign anomaly alerts
-- Automated platform ingestion
-- Recommendation systems
-- Power BI drill-through analysis
-- Cloud deployment
+- Creative fatigue detection
+- Advanced audience segmentation
+- Budget optimization
+- Automated campaign alerts
+- Automated data pipelines
+- Power BI Service deployment
 
 ---
 
 <div align="center">
 
-## The idea behind the project
+## 🔵 From Meta campaign activity to business decisions
 
-### Don’t stop at **“Which ad performed best?”**
-
-### Ask:
-
-## **“Where should the next advertising dollar go — and why?”**
+### **Events → Funnel → Platform → Audience → Creative → Timing → Insight**
 
 <br>
 
-### 🐍 [Start with Python](notebooks/01_data_understanding.ipynb)
-### 🗄️ [Explore the SQL analysis](sql/marketing_campaign_business_questions.sql)
-### 📊 [Open the Power BI file](dashboard/Global_Digital_Advertising_Performance_Analysis.pbix)
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Dashboard/dashboard.pdf"><b>📊 Dashboard</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/Document/Meta_Ad_Analysis_Project_Report.pdf"><b>📄 Business Report</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/digital_ad_python_analysis.py"><b>🐍 Python Analysis</b></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/subachansubedi/Digital-Advertising-Performance-Analytics/blob/main/python/Python%20Report%20Pdf/digital_advertising_python_report.pdf"><b>📑 Python Report</b></a>
 
-<br>
+<br><br>
 
-**Subachan Subedi**
-
-<br>
-
-<a href="#digital-advertising-performance-analytics">↑ Back to top</a>
+**Project by: Subachan Subedi**
 
 </div>
 
 ---
 
-## License
-
-See [`LICENSE`](LICENSE) for the repository license.
